@@ -1,0 +1,13 @@
+/* can also target the component itself: */
+:host{
+    display: block;
+    margin: 1rem 0rem;
+}
+
+.info-text{
+    text-align: center;
+}
+
+/* mat-accordion{
+    margin: 10px;
+} */
