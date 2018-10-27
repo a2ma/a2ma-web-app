@@ -12,10 +12,10 @@ import {
  } from '@angular/material';
 
 // For components
- import { AppComponent } from './app.component';
-import { PostCreateComponent } from './posts/post-create/post-create.component';
-import { HeaderComponent } from './header/header.component';
-import { PostListComponent } from './posts/post-list/post-list.component';
+import { AppComponent } from './app.component';
+import { PostCreateComponent } from './components/posts/post-create/post-create.component';
+import { HeaderComponent } from './components/header/header.component';
+import { PostListComponent } from './components/posts/post-list/post-list.component';
 
 @NgModule({
   declarations: [
