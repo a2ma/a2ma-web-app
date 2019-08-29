@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 
-import { Post } from './models/post.model';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,9 +7,4 @@ import { Post } from './models/post.model';
 })
 export class AppComponent {
   title = 'Baurach';
-  storedPosts: Post[] = [];
-
-  onPostAdded(post) {
-    this.storedPosts.push(post);
-  }
 }

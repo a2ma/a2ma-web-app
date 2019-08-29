@@ -2,13 +2,17 @@
     <mat-expansion-panel *ngFor="let post of posts">
         <mat-expansion-panel-header>
             <mat-panel-title>
-                {{post.title}}
+                <strong>{{post.title}}</strong>
             </mat-panel-title>
             <mat-panel-description>
                 {{post.description}}
             </mat-panel-description>
         </mat-expansion-panel-header>
         <p>{{post.content}}</p>
+        <mat-action-row>
+            <button mat-button color="primary">Edit</button>
+            <button mat-button color="warn">Delete</button>
+        </mat-action-row>
     </mat-expansion-panel>
 </mat-accordion>
 <p *ngIf="posts.length <= 0" class="mat-body-1 info-text">Nothing to show yet!</p>
